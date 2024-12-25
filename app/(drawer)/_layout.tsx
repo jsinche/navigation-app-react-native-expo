@@ -21,7 +21,7 @@ const DrawerLayout = () => {
       <Drawer.Screen
         name="(tabs)"
         options={{
-          headerShown: true,
+          headerShown: false,
           drawerLabel: "Tabs + Stack",
           title: "Tabs + Stack",
           drawerIcon: ({ color, size }) => (

@@ -7,12 +7,18 @@ export default function TabLayout() {
       screenOptions={{
         tabBarActiveTintColor: "indigo",
         // tabBarShowLabel: false,
+        // headerShown: false,
+        // tabBarStyle: {
+        //   backgroundColor: "black",
+        // },
+        // tabBarActiveBackgroundColor: "red",
       }}
     >
       <Tabs.Screen
         name="(stack)"
         options={{
           title: "Stack",
+          headerShown: false,
           tabBarIcon: ({ color }) => (
             <Ionicons size={28} name="person-add-outline" color={color} />
           ),
