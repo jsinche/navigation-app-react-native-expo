@@ -16,6 +16,9 @@ const DrawerLayout = () => {
         sceneStyle: {
           backgroundColor: "white",
         },
+        drawerStyle: {
+          width: "60%",
+        },
       }}
     >
       <Drawer.Screen
